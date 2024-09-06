@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-export const verifyToken = (req, res, next) => {
+const verifyToken = (req, res, next) => {
   const authHeader = req.headers.authorization;
 
   if (authHeader) {
@@ -18,3 +18,5 @@ export const verifyToken = (req, res, next) => {
     res.status(401).json({ message: "Authorization token required" });
   }
 };
+ 
+export default verifyToken ;

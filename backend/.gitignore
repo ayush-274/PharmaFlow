@@ -1,0 +1,45 @@
+# Node.js dependencies
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Environment variables
+.env
+
+# Production
+build/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# dotenv environment variables file
+.env

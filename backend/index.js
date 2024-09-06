@@ -9,6 +9,7 @@ import chemistRoute from "./routes/chemistRoute.js"; // Import chemistRoute
 
 import { connect } from "mongoose";
 import connectDB from "./utils/db.js";
+import userRoute from "./routes/user.route.js";
 
 // Config
 dotenv.config();
@@ -39,3 +40,5 @@ app.listen(PORT, () => {
 
 // Use routes
 app.use("/api/chemist-users", chemistRoute); // Use chemistRoute for login route
+
+app.use("/api/v1/users", userRoute);

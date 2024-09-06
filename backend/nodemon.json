@@ -1,0 +1,6 @@
+{
+    "watch": ["controllers", "models", "routes", "index.js"],
+    "ext": "js,json",
+    "ignore": ["node_modules"]
+}
+  

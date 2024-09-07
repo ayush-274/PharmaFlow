@@ -20,7 +20,6 @@ PharmaFlow is designed to ensure the efficient and effective procurement and dis
 - **bcrypt**: For password hashing.
 - **Nodemon**: For automatic server restarts during development.
 - **dotenv**: For managing environment variables.
-- **Helmet**: For security best practices.
 - **Morgan**: For logging HTTP requests.
 - **CORS**: For handling cross-origin requests.
 

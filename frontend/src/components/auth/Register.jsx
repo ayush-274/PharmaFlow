@@ -116,8 +116,8 @@ const Register = () => {
                             </div>
                         </RadioGroup>
                     </div>
-                    <Button type="submit" className="w-full my-4">Register</Button>
-                    <span className='text-sm'>Already have an account? <Link to="/login" className='text-blue-600'>Login</Link></span> 
+                    <Button type="submit" className='w-full my-4 bg-green-600 hover:bg-green-700'>Register</Button>
+                    <span className='text-sm'>Already have an account? <Link to="/login" className='text-green-600 hover:text-green-700'>Login</Link></span> 
                 </form>
             </div>
         </div>

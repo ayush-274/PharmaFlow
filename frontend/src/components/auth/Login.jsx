@@ -83,8 +83,8 @@ const Login = () => {
                             </div>
                         </RadioGroup>
                     </div>
-                    <Button type="submit" className='w-full my-4'>Login</Button>
-                    <span>Don't have an account? <Link to="/register" className='text-blue-600'>Register</Link></span>
+                    <Button type="submit" className='w-full my-4 bg-green-600 hover:bg-green-700'>Login</Button>
+                    <span>Don't have an account? <Link to="/register" className= 'text-green-600 hover:text-green-700'>Register</Link></span>
                 </form>
             </div>
         </div>

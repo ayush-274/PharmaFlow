@@ -17,7 +17,7 @@ const HeroSection = () => {
                 {/* Left Column: Content */}
                 <div className="flex flex-col md:w-3/5 lg:w-1/2 p-8">
                     <h1 className="text-4xl font-bold leading-tight mb-4 text-black">
-                        Welcome to Pharma<span className='text-[#F83002]'>Flow</span>
+                        Welcome to Pharma<span className='text-green-600'>Flow</span>
                     </h1>
                     <p className="text-lg mb-8 text-black">
                         Streamlining the pharmaceutical supply chain for better efficiency, safety, and reliability. Join us to transform the way medicines reach those who need them.

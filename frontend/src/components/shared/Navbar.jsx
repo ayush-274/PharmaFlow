@@ -22,10 +22,10 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-white'>
+        <div className='bg-[#e0f7fc]'>
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>
                 <div>
-                    <h1 className='text-2xl font-bold'>Pharma <span className='text-[#F83002]'>Flow</span></h1>
+                    <h1 className='text-2xl font-bold'>Pharma<span className='text-green-600'>Flow</span></h1>
                 </div>
                 <div className='flex item-center gap-12'>
                     <ul className='flex font-medium items-center gap-5'>
@@ -35,7 +35,7 @@ const Navbar = () => {
                         !user ? (
                             <div className='flex items-center gap-2'>
                                 <Link to="/login"><Button variant="outline">Login</Button></Link>
-                                <Link to="/register"><Button className="bg-[#6A38C2] hover:bg-[#5b30a6]">Register</Button></Link>
+                                <Link to="/register"><Button className="bg-green-600 hover:bg-green-700">Register</Button></Link>
                             </div>
                         ) : (
                             <Popover>

@@ -9,8 +9,6 @@ import { LogOut, User, User2, User2Icon, UserX2 } from 'lucide-react'
 const Navbar = () => {
     const user = true;
     return (
-
-
         <div className='bg-white'>
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>
                 <div>

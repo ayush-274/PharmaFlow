@@ -4,6 +4,8 @@ import { Label } from '../ui/label'
 import { Input } from '../ui/input'
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group'
 import { Link } from 'react-router-dom'
+import { Button } from '../ui/button'
+
 const Login = () => {
     const [input, setInput] = useState({
         email:"",
@@ -20,6 +22,7 @@ const Login = () => {
         console.log(input)
     }
     return (
+
         <div>
             <Navbar />
             <div className='flex items-center justify-center max-w-7xl mx-auto'>
@@ -80,8 +83,8 @@ const Login = () => {
                             </div>
                         </RadioGroup>
                     </div>
-                    <Button type="submit" className='w-full my-4'>Login</Button>
-                    <span>Don't have an account?<Link to="/register" className='text-blue-600'></Link></span>
+                    <Button type="submit" className='w-full my-4 bg-green-600 hover:bg-green-700'>Login</Button>
+                    <span>Don't have an account? <Link to="/register" className= 'text-green-600 hover:text-green-700'>Register</Link></span>
                 </form>
             </div>
         </div>

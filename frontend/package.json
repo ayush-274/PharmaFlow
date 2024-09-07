@@ -11,18 +11,15 @@
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
-<<<<<<< HEAD
-    "@radix-ui/react-popover": "^1.1.1",
-=======
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-radio-group": "^1.2.0",
->>>>>>> shreyash
     "@radix-ui/react-slot": "^1.1.0",
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.2.1",
     "lucide-react": "^0.439.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

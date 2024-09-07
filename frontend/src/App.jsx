@@ -25,6 +25,9 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div>
+      <RouterProvider router={appRouter} />
+    </div>
     </>
 
       

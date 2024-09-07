@@ -18,7 +18,17 @@ module.exports = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+		  keyframes: {
+			'fade-in': {
+			  '0%': { opacity: '0' },
+			  '100%': { opacity: '1' },
+			},
+		  },
+		  animation: {
+			'fade-in': 'fade-in 3s ease-out',
+		  },
   		colors: {
+			'custom-blue': '#caebfa',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -58,7 +68,7 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
   		}
   	}
   },

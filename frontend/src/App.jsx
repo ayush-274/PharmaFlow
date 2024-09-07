@@ -1,28 +1,29 @@
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/shared/Navbar";
-// import Login from "./components/auth/Login";
+import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Home from "./components/Home";
 
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
-  // {
-  //   path: "/login",
-  //   element: <Login />,
-  // },
+  {
+    path: "/login",
+    element: <Login/>,
+  },
   {
     path: "/register",
-    element: <Register />,
+    element: <Register/>,
   },
 ]);
 
 function App() {
   return (
     <div>
-      <RouterProvider router={appRouter} />
+      <RouterProvider router={appRouter}/>
     </div>
   );
 }

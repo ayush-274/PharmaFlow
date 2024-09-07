@@ -62,7 +62,7 @@ const Register = () => {
                                     type="radio"
                                     name="role"
                                     value="manufacturer"
-                                    checked={input.role === 'manufacturer'}
+                                    // checked={input.role === 'manufacturer'}
                                     // onChange={changeEventHandler}
                                     className="cursor-pointer"
                                 />
@@ -73,7 +73,7 @@ const Register = () => {
                                     type="radio"
                                     name="role"
                                     value="distributor"
-                                    checked={input.role === 'distributor'}
+                                    // checked={input.role === 'distributor'}
                                     // onChange={changeEventHandler}
                                     className="cursor-pointer"
                                 />
@@ -84,7 +84,7 @@ const Register = () => {
                                     type="radio"
                                     name="role"
                                     value="chemist"
-                                    checked={input.role === 'chemist'}
+                                    // checked={input.role === 'chemist'}
                                     // onChange={changeEventHandler}
                                     className="cursor-pointer"
                                 />

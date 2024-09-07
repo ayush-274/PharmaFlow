@@ -7,7 +7,7 @@ import { AvatarImage } from '@radix-ui/react-avatar'
 import { LogOut, User, User2, User2Icon, UserX2 } from 'lucide-react'
 
 const Navbar = () => {
-    const user = true;
+    const user = false;
     return (
         <div className='bg-white'>
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>
@@ -17,14 +17,14 @@ const Navbar = () => {
                 <div className='flex item-center gap-12'>
                     <ul className='flex font-medium items-center gap-5'>
                         <li>Home </li>
-                        <li>Log in</li>
-                        <li>Sign up</li>
                     </ul>
                     {
                         !user ? (
                             <div className='flex items-center gap-2'>
-                                <Button variant="outline">Login</Button>
-                                <Button className="bg-[#6A38C2] hover:bg-[#5b30a6}">Sign Up</Button>
+                                {/* <Button variant="outline">Login</Button> */}
+                                <Link to="/login"><Button variant="outline">Login</Button></Link>
+                                {/* <Button className="bg-[#6A38C2] hover:bg-[#5b30a6}">Sign Up</Button> */}
+                                <Link to="/register"><Button className="bg-[#6A38C2] hover:bg-[#5b30a6]">Register</Button></Link>
                             </div>
                         ) : (
                             <Popover>

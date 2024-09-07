@@ -43,5 +43,5 @@ npm install --save-dev nodemon
 
 # Install additional dependencies
 npm install mongodb
-npm install bcrypt
+npm install bcryptjs
 npm install jsonwebtoken

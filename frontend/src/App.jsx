@@ -8,22 +8,22 @@ import Home from "./components/Home";
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <Login/>,
   },
   {
     path: "/register",
-    element: <Register />,
+    element: <Register/>,
   },
 ]);
 
 function App() {
   return (
     <div>
-      <RouterProvider router={appRouter} />
+      <RouterProvider router={appRouter}/>
     </div>
   );
 }

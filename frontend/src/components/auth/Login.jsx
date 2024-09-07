@@ -4,26 +4,6 @@ import { Label } from '../ui/label'
 import { Input } from '../ui/input'
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group'
 import { Link } from 'react-router-dom'
-// const Login = () => {
-//     const [input, setInput] = useState({
-//         email:"",
-//         password:"",
-//         role:""
-//     });
-
-//     const changeEventHandler=(e) =>{
-//         setInput({...input,[e.target.name]: e.target.value});
-//     }
-
-//     const submitHandler = async (e) =>{
-//         e.preventDefault();
-//         console.log(input)
-//     }
-//     return (
-//         <div>
-//             <Navbar />
-//             <div className='flex items-center justify-center max-w-7xl mx-auto'>
-//                 <form onSubmit={submitHandler} className='w-1/2 border border-gray-200 rounded-md p-4 my-10'>
 import { Button } from '../ui/button'
 
 const Login = () => {

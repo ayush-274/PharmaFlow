@@ -6,7 +6,7 @@ const Sidebar = () => {
   
   return (
     <div className="h-screen w-64 bg-gray-800 p-6">
-      <h2 className="text-white text-2xl font-semibold mb-6">PharmaFlow</h2>
+      <h2 className="text-white text-2xl font-semibold mb-6">Pharma<span className='text-green-400'>Flow</span></h2>
       <ul>
         <li className={`mb-4 ${location.pathname === '/dashboard' ? 'bg-green-600 rounded-md' : ''}`}>
           <Link to="/dashboard" className={`text-white hover:text-gray-400 block p-2 rounded-md ${location.pathname === '/dashboard' ? 'bg-green-600' : ''}`}>

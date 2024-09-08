@@ -13,8 +13,8 @@ const DashboardLayout = () => {
       </div>
 
       {/* Main content with margin adjusted for sidebar */}
-      <div className="ml-64 w-full p-6 bg-gray-900 text-white">
-        <h1 className="text-3xl font-bold mb-6">DASHBOARD</h1>
+      <div className="ml-64 w-full p-6 bg-white text-black">
+        <h1 className="text-green-600 text-3xl font-bold mb-6">DASHBOARD</h1>
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">

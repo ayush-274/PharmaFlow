@@ -1,7 +1,7 @@
 const OrdersTable = () => {
     return (
-      <div className="bg-gray-800 p-4 rounded-lg shadow-md mt-6">
-        <h3 className="text-xl font-semibold mb-4">Recent Orders</h3>
+      <div className="bg-white p-4 rounded-lg shadow-md mt-6">
+        <h3 className="text-green-600 text-xl font-semibold mb-4">Recent Orders</h3>
         <table className="min-w-full table-auto">
           <thead>
             <tr>

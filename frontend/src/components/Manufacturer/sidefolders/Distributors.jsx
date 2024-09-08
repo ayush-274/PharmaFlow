@@ -35,7 +35,7 @@ const Distributors = () => {
             ))}
           </tbody>
         </table>
-        <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded">
+        <button className="mt-4 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded">
           Add New Distributor
         </button>
       </div>

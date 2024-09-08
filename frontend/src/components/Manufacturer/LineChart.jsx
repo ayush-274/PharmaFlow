@@ -27,8 +27,8 @@ const LineChart = () => {
   };
 
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-md">
-      <h3 className="text-xl font-semibold text-white mb-4">Sales Trend</h3>
+    <div className="bg-white p-4 rounded-lg shadow-md">
+      <h3 className="text-xl font-semibold text-green-600 mb-4">Sales Trend</h3>
       <div className="h-50">
         <Line data={data} options={options} />
       </div>

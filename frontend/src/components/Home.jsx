@@ -11,7 +11,7 @@ const Home = () => {
       <main className="flex-grow animate-fade-in">
         <HeroSection />
       </main>
-      <Carousel123/>
+      {/* <Carousel123/> */}
       <Footer/>
     </div>
   );

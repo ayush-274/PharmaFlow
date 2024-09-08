@@ -25,7 +25,7 @@ module.exports = {
 			},
 		  },
 		  animation: {
-			'fade-in': 'fade-in 3s ease-out',
+			'fade-in': 'fade-in 2s ease-out',
 		  },
   		colors: {
 			'custom-blue': '#caebfa',

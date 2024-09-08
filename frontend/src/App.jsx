@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Dashboard from "./components/Manufacturer/DashboardLayout"
 import Distributors from "./components/Manufacturer/sidefolders/distributors"
 import Performace from "./components/Manufacturer/sidefolders/performance"
+import Transaction from "./components/Manufacturer/sidefolders/transactions"
+import Updatemedicine from "./components/Manufacturer/sidefolders/update-medicines"
 
 
 const appRouter = createBrowserRouter([
@@ -34,11 +36,14 @@ const appRouter = createBrowserRouter([
     path: "/dashboard/performance",
     element: <Performace/>
   },
-  // {
-  //   path: "/dashboard/distributors",
-  //   element: <Distributors/>
-  // },
-  
+  {
+    path: "/dashboard/transaction",
+    element: <Transaction/>
+  },
+  {
+    path: "/dashboard/update-medicines",
+    element: <Updatemedicine/>
+  },
 ]);
 
 function App() {

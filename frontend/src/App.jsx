@@ -4,6 +4,8 @@ import Navbar from "./components/shared/Navbar";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Home from "./components/Home";
+import Dashboard from "./components/Manufacturer/DashboardLayout"
+
 
 const appRouter = createBrowserRouter([
   {
@@ -17,6 +19,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/register",
     element: <Register/>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard/>,
   },
 ]);
 
